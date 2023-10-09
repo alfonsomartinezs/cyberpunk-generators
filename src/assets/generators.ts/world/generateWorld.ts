@@ -8,6 +8,5 @@ export const generateWorld = () =>{
   while(firstProblem == secondProblem){
     secondProblem = getRandomFromArray(WorldProblems)
   }
-  console.log([firstProblem,secondProblem])
   return [firstProblem,secondProblem]
 }
