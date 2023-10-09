@@ -1,4 +1,4 @@
 export default {
   // config options
-  base: "/cyberpunk-generators/"
+  // base: "/cyberpunk-generators/"
 }
