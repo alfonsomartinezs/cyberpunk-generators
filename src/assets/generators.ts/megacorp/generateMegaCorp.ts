@@ -31,8 +31,6 @@ export const generateMegaCorp = (): MegaCorp => {
   // generate name
   const name = generateCorpName();
 
-  console.log(styles)
-
   return {
     name,
     focus,

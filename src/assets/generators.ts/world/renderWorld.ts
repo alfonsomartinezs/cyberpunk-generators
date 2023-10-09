@@ -5,7 +5,6 @@ export const renderWorld = () =>{
   const worldlist = document.getElementById('world-problems-display')!;
   
   for(let i = 0; i < worldProblems.length;i++){
-    console.log(worldProblems)
     const nameElement = document.createElement("h4")
     nameElement.innerText = worldProblems[i].name
     worldlist.appendChild(nameElement);

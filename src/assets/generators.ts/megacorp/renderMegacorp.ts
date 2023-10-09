@@ -3,7 +3,6 @@ import { generateMegaCorps } from "./generateMegaCorp";
 
 export const renderMegacorps = () => {
   const corps = generateMegaCorps(4);
-  console.log(corps)
 
   const corpDisplay = document.getElementById('megacorps-display')!;
 
@@ -13,7 +12,6 @@ export const renderMegacorps = () => {
 }
 
 const renderMegaCorp = (corp:MegaCorp,displayElement:HTMLElement) =>{
-  console.log("emene: ",displayElement)
   const corpTitle = createTextElement('h2',corp.name)
   const corpFocus = createTextElement('p',`<strong>Focus</strong>: ${corp.focus}`)
   const corpStrength = createTextElement('p',`<strong>Strength</strong>: ${corp.strength}`)
