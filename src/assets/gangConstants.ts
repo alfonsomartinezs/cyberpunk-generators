@@ -56,25 +56,25 @@ export const gangStyle = {
 
 export const gangStyles = [
   gangStyle.Bestial,
-gangStyle.Chromed,
-gangStyle.Corporate,
-gangStyle.Degenerate,
-gangStyle.Doctrinaire,
-gangStyle.Familial,
-gangStyle.Flamboyant,
-gangStyle.Greedy,
-gangStyle.Idealistic,
-gangStyle.Nihilistic,
-gangStyle.Pious,
-gangStyle.Pretentious,
-gangStyle.Sadistic,
-gangStyle.Sanctioned,
-gangStyle.Terrifying,
-gangStyle.Themed,
-gangStyle.Wretched,
-gangStyle.Nationalist,
-gangStyle.Swarming,
-gangStyle.Technical,
+  gangStyle.Chromed,
+  gangStyle.Corporate,
+  gangStyle.Degenerate,
+  gangStyle.Doctrinaire,
+  gangStyle.Familial,
+  gangStyle.Flamboyant,
+  gangStyle.Greedy,
+  gangStyle.Idealistic,
+  gangStyle.Nihilistic,
+  gangStyle.Pious,
+  gangStyle.Pretentious,
+  gangStyle.Sadistic,
+  gangStyle.Sanctioned,
+  gangStyle.Terrifying,
+  gangStyle.Themed,
+  gangStyle.Wretched,
+  gangStyle.Nationalist,
+  gangStyle.Swarming,
+  gangStyle.Technical,
 ]
 
 export const gangStrengths = [
@@ -146,28 +146,50 @@ export const gangGoals = [
   "Forge a useful new public impression",
 ]
 
+const gangNameElement = {
+  StreetName: "Street name",
+  Color: "Color",
+  ViolentAction: "Violent action",
+  Animal: "Animal",
+  Direction: "Direction",
+  FashionItem: "Fashion item",
+  LeaderName: "Leader's name",
+  ReligiousFigure: "Religious figure",
+  GeographicLocation: "Geographic location",
+  DistrictName: "District name",
+  ImportantDate: "Important date",
+  DrugName: "Drug name",
+  BuildingName: "Building name",
+  NationName: "Nation name",
+  PhysicalTrait: "Physical trait",
+  FavoriteCyber: "Favorite cyber",
+  IntimidatingAdjective: "Intimidating adjective",
+  Weapon: "Weapon",
+  BarbarousHabit: "Barbarous habit",
+  GangMission: "The gang's mission",
+}
 
 export const gangNameElements = [
-  "Street name ",
-  "Color",
-  "Violent action",
-  "Animal",
-  "Direction",
-  "Fashion item",
-  "Leader's name",
-  "Religious figure",
-  "Geographic location",
-  "District name",
-  "Important date",
-  "Drug name",
-  "Building name",
-  "Nation name",
-  "Physical trait",
-  "Favorite cyber",
-  "Intimidating adjective",
-  "Weapon",
-  "Barbarous habit",
-  "The gang's mission",
+  gangNameElement.StreetName,
+  gangNameElement.Color,
+  gangNameElement.ViolentAction,
+  gangNameElement.Animal,
+  gangNameElement.Direction,
+  gangNameElement.FashionItem,
+  gangNameElement.LeaderName,
+  gangNameElement.ReligiousFigure,
+  gangNameElement.GeographicLocation,
+  gangNameElement.DistrictName,
+  gangNameElement.ImportantDate,
+  gangNameElement.DrugName,
+  gangNameElement.BuildingName,
+  gangNameElement.NationName,
+  gangNameElement.PhysicalTrait,
+  gangNameElement.FavoriteCyber,
+  gangNameElement.IntimidatingAdjective,
+  gangNameElement.Weapon,
+  gangNameElement.BarbarousHabit,
+  gangNameElement.GangMission,
 ]
 
 export const gangOrgElements = [
@@ -192,3 +214,507 @@ export const gangOrgElements = [
   "Squad",
   "Syndicate",
 ]
+
+const streetNames = [
+  "Maple Street",
+  "Main Avenue",
+  "Oak Lane",
+  "Pine Road",
+  "Cedar Boulevard",
+  "Elm Drive",
+  "Willow Lane",
+  "Aspen Avenue",
+  "Birch Street",
+  "Cypress Road",
+  "Sycamore Boulevard",
+  "Hickory Drive",
+  "Mulberry Lane",
+  "Poplar Road",
+  "Cottonwood Avenue",
+  "Magnolia Street",
+  "Juniper Lane",
+  "Acacia Boulevard",
+  "Sassafras Drive",
+  "Redwood Avenue"
+];
+
+// Color
+const colors = [
+  "Blue",
+  "Red",
+  "Green",
+  "Black",
+  "Silver",
+  "Pink",
+  "White",
+  "Yellow",
+  "Purple",
+  "Orange",
+  "Gray",
+  "Brown",
+  "Gold",
+  "Crimson",
+  "Magenta",
+  "Turquoise",
+  "Violet",
+  "Teal",
+  "Indigo",
+  "Olive"
+];
+
+// ViolentAction
+const violentActions = [
+  "Punch",
+  "Kick",
+  "Shoot",
+  "Stab",
+  "Slice",
+  "Explosion",
+  "Smash",
+  "Crush",
+  "Blast",
+  "Strike",
+  "Hack",
+  "Slash",
+  "EMP Burst",
+  "Tackle",
+  "Throw",
+  "Choke",
+  "Grapple",
+  "Blow",
+  "Wound",
+  "Assault"
+];
+
+// Animal
+const animals = [
+  "Dog",
+  "Cat",
+  "Bird",
+  "Fish",
+  "Snake",
+  "Horse",
+  "Lion",
+  "Tiger",
+  "Bear",
+  "Shark",
+  "Monkey",
+  "Elephant",
+  "Giraffe",
+  "Kangaroo",
+  "Fox",
+  "Wolf",
+  "Deer",
+  "Rabbit",
+  "Squirrel",
+  "Owl"
+];
+
+// Direction
+const directions = [
+  "North",
+  "East",
+  "West",
+  "South",
+  "Up",
+  "Down",
+  "Left",
+  "Right",
+  "Forward",
+  "Backward",
+  "Clockwise",
+  "Counterclockwise",
+  "Ascend",
+  "Descend",
+  "Spinward",
+  "Antispinward",
+  "Inward",
+  "Outward",
+  "High",
+  "Low"
+];
+
+// FashionItem
+const fashionItems = [
+  "Hat",
+  "Jacket",
+  "Shoes",
+  "Gloves",
+  "Goggles",
+  "Jumpsuit",
+  "Scarf",
+  "Hoodie",
+  "Arm Sleeve",
+  "Leggings",
+  "Bracelet",
+  "Space Suit",
+  "Belt",
+  "Mask",
+  "Earrings",
+  "Cape",
+  "Skirt",
+  "Headband",
+  "Wristband",
+  "Sneakers"
+];
+
+// LeaderName
+const leaderNames = [
+  "Boss",
+  "Chief",
+  "Captain",
+  "Commander",
+  "Master",
+  "Overlord",
+  "Kingpin",
+  "Warlord",
+  "Monarch",
+  "Sultan",
+  "Emperor",
+  "Lord",
+  "Commandant",
+  "Chieftain",
+  "Ruler",
+  "Dictator",
+  "Majesty",
+  "Sovereign",
+  "Potentate",
+  "Despot"
+];
+
+// ReligiousFigure
+const religiousFigures = [
+  "Priest",
+  "Oracle",
+  "Prophet",
+  "Diviner",
+  "Hierophant",
+  "Cleric",
+  "Shaman",
+  "High Priest",
+  "Zealot",
+  "Bishop",
+  "Sage",
+  "Monk",
+  "Avatara",
+  "Seraph",
+  "Pontiff",
+  "Deity",
+  "Saint",
+  "Lama",
+  "Guru",
+  "Pope"
+];
+
+// GeographicLocation
+const geographicLocations = [
+  "Wasteland",
+  "Cityscape",
+  "Megapolis",
+  "Haven",
+  "Archipelago",
+  "Badlands",
+  "Outpost",
+  "Enclave",
+  "Wilderness",
+  "Citadel",
+  "Oasis",
+  "Frontier",
+  "Ruins",
+  "Metropolis",
+  "Undercity",
+  "Expanse",
+  "Sector",
+  "Abyss",
+  "Island",
+  "Desert"
+];
+
+// DistrictName
+const districtNames = [
+  "Core District",
+  "Heights",
+  "Sector",
+  "Nexus",
+  "Precinct",
+  "Borough",
+  "Quarter",
+  "Ward",
+  "Township",
+  "Block",
+  "Borough",
+  "Sector",
+  "Enclave",
+  "Zone",
+  "Precinct",
+  "Borough",
+  "Ward",
+  "District",
+  "Zone",
+  "Quarter"
+];
+
+// ImportantDate
+const importantDates = [
+  "Dawn",
+  "Eclipse",
+  "Reckoning",
+  "Uprising",
+  "Ascendance",
+  "Convergence",
+  "Revolution",
+  "Singularity",
+  "Emergence",
+  "Genesis",
+  "Cataclysm",
+  "Apotheosis",
+  "Genesis",
+  "Revolution",
+  "Ascendance",
+  "Convergence",
+  "Eclipse",
+  "Uprising",
+  "Cataclysm",
+  "Singularity"
+];
+
+// DrugName
+const drugNames = [
+  "Dream",
+  "Bliss",
+  "Quicksilver",
+  "Dose",
+  "Nectar",
+  "Pixie",
+  "Pop",
+  "Venom",
+  "Tranquil",
+  "Infusion",
+  "Zephyr",
+  "Grind",
+  "Crave",
+  "Rush",
+  "Xanadu",
+  "Nirvana",
+  "Phantasm",
+  "Surge",
+  "Breeze",
+  "Haze"
+];
+
+// BuildingName
+const buildingNames = [
+  "Tower",
+  "Spire",
+  "Citadel",
+  "Nexus",
+  "Palace",
+  "Plaza",
+  "Vault",
+  "Temple",
+  "Arcology",
+  "Garrison",
+  "Citadel",
+  "Roost",
+  "Bastion",
+  "Nexus",
+  "Fortress",
+  "Stronghold",
+  "Bunker",
+  "Haven",
+  "Sanctuary",
+  "Shelter"
+];
+
+// NationName
+const nationNames = [
+  "Topia",
+  "Dominion",
+  "Syndicate",
+  "Republic",
+  "Federation",
+  "Coalition",
+  "Empire",
+  "Union",
+  "Alliance",
+  "Republic",
+  "Realm",
+  "Collective",
+  "State",
+  "Territory",
+  "Nation",
+  "Commonwealth",
+  "Federation",
+  "Kingdom",
+  "Domain",
+  "Hegemony"
+];
+
+// PhysicalTrait
+const physicalTraits = [
+  "Implants",
+  "Arm",
+  "Leg",
+  "Eye",
+  "Hand",
+  "Ear",
+  "Spine",
+  "Heart",
+  "Lung",
+  "Skin",
+  "Hair",
+  "Brain",
+  "Nerve",
+  "Muscle",
+  "Joint",
+  "Bone",
+  "Blood",
+  "Organ",
+  "Tissue",
+  "Cell"
+];
+
+// FavoriteCyber
+const favoriteCybers = [
+  "Neural Interface",
+  "Cybernetic Limb",
+  "Augmented Eyes",
+  "Enhanced Reflexes",
+  "Data Jack",
+  "Synthetic Organs",
+  "Holographic Display",
+  "Nanobot Swarm",
+  "Enhanced Hearing",
+  "Biometric Implant",
+  "Virtual Reality Gear",
+  "Neural Implant",
+  "Bionic Spine",
+  "Cybernetic Heart",
+  "Augmented Lungs",
+  "Smart Skin",
+  "Biohacking Module",
+  "Muscle Enhancement",
+  "Neural Sensor",
+  "Invisibility Cloak"
+];
+
+// IntimidatingAdjective
+const intimidatingAdjectives = [
+  "Sinister",
+  "Menacing",
+  "Dreadful",
+  "Ominous",
+  "Threatening",
+  "Fearsome",
+  "Terrifying",
+  "Foreboding",
+  "Chilling",
+  "Formidable",
+  "Intimidating",
+  "Unnerving",
+  "Spine-chilling",
+  "Haunting",
+  "Eerie",
+  "Majestic",
+  "Imposing",
+  "Demonic",
+  "Monstrous",
+  "Harrowing"
+];
+
+// Weapon
+const weapons = [
+  "Blade",
+  "Gun",
+  "Rifle",
+  "Sword",
+  "Dagger",
+  "Axe",
+  "Hammer",
+  "Whip",
+  "Grenade",
+  "Crossbow",
+  "Shuriken",
+  "Staff",
+  "Taser",
+  "Sniper Rifle",
+  "Energy Pistol",
+  "Plasma Cannon",
+  "Railgun",
+  "Nanobot Disruptor",
+  "Pulse Rifle",
+  "Ion Blade"
+];
+
+// BarbarousHabit
+const barbarousHabits = [
+  "Bounty Hunting",
+  "Smuggling",
+  "Illegal Racing",
+  "Black Market Trading",
+  "Hacking",
+  "Brawling",
+  "Street Racing",
+  "Weapon Dealing",
+  "Contraband Trafficking",
+  "Gang Warfare",
+  "Assassination",
+  "Robbery",
+  "Kidnapping",
+  "Sabotage",
+  "Cybernetic Piracy",
+  "Mercenary Work",
+  "Raiding",
+  "Drug Manufacturing",
+  "Corporate Espionage",
+  "Body Augmentation Theft"
+];
+
+// GangMission
+const gangMissions = [
+  "Save the Cheeleader",
+  "Save the World"
+];
+
+
+export const gangNameElementList = {
+  [gangNameElement.StreetName]: streetNames,
+  [gangNameElement.Color]: colors,
+  [gangNameElement.ViolentAction]: violentActions,
+  [gangNameElement.Animal]: animals,
+  [gangNameElement.Direction]: directions,
+  [gangNameElement.FashionItem]: fashionItems,
+  [gangNameElement.LeaderName]: leaderNames,
+  [gangNameElement.ReligiousFigure]: religiousFigures,
+  [gangNameElement.GeographicLocation]: geographicLocations,
+  [gangNameElement.DistrictName]: districtNames,
+  [gangNameElement.ImportantDate]: importantDates,
+  [gangNameElement.DrugName]: drugNames,
+  [gangNameElement.BuildingName]: buildingNames,
+  [gangNameElement.NationName]: nationNames,
+  [gangNameElement.PhysicalTrait]: physicalTraits,
+  [gangNameElement.FavoriteCyber]: favoriteCybers,
+  [gangNameElement.IntimidatingAdjective]: intimidatingAdjectives,
+  [gangNameElement.Weapon]: weapons,
+  [gangNameElement.BarbarousHabit]: barbarousHabits,
+  [gangNameElement.GangMission]: gangMissions,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

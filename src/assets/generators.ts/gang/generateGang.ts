@@ -1,14 +1,14 @@
-import { GangType, gangIncomes, gangNameElements, gangOrgElements, gangStyles } from "../../gangConstants"
+import { GangType, gangIncomes, gangNameElementList, gangNameElements, gangOrgElements, gangStyles } from "../../gangConstants"
 import { LabelObject, corpEvents, corpGoals, corpStrengths, corpStyles } from "../../megacorpConstants"
 import { getRandomFromArray } from "../helpers"
 
 const generateGangName = () =>{
   const nameElementArray = getRandomFromArray(gangNameElements)
-  // const list = nameElementList[nameElementArray as keyof typeof nameElementList]
-  // const nameElement = getRandomFromArray(list)
+  const list = gangNameElementList[nameElementArray as keyof typeof gangNameElementList]
+  const nameElement = getRandomFromArray(list)
   const corpElement = getRandomFromArray(gangOrgElements)
 
-  return `[${nameElementArray}] ${corpElement}`
+  return `${nameElement} ${corpElement}`
 }
 
 export const generateGang = (): GangType => {
